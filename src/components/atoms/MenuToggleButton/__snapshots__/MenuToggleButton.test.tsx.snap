@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuToggleButton Snap Shot 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-width: 0;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.emotion-0 svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.emotion-0 svg path {
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4,0,1,1);
+  transition-timing-function: cubic-bezier(0.4,0,1,1);
+}
+
+.emotion-0 svg path.open {
+  opacity: 0;
+}
+
+.emotion-0 svg path.closed {
+  opacity: 1;
+}
+
+<button
+  className="emotion-0 emotion-1"
+  onClick={[Function]}
+  type="button"
+>
+  <svg
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      className="open"
+      d="M6 18L18 6M6 6l12 12"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+    />
+    <path
+      className="closed"
+      d="M4 6h16M4 12h16M4 18h16"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+    />
+  </svg>
+</button>
+`;

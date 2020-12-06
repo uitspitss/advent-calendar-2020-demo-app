@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`molecules/CookieNotification Snap Shot 1`] = `
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  to {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.emotion-0 {
+  -webkit-animation: animation-0 0.5s ease;
+  animation: animation-0 0.5s ease;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  --bg-opacity: 1;
+  background-color: rgba(66,153,225,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(255,255,255,var(--text-opacity));
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+  transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+}
+
+.emotion-0 > div > .acceptButton {
+  --bg-opacity: 1;
+  background-color: rgba(237,100,166,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(255,255,255,var(--text-opacity));
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 0.5rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.emotion-0 > div > .acceptButton:hover {
+  --bg-opacity: 1;
+  background-color: rgba(184,50,128,var(--bg-opacity));
+}
+
+.emotion-0 > div > .declineButton {
+  background-color: transparent;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  --text-opacity: 1;
+  color: rgba(255,255,255,var(--text-opacity));
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.emotion-0 > div > .declineButton:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div
+  className="emotion-0 emotion-1"
+  style={
+    Object {
+      "top": "0",
+    }
+  }
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    This website uses cookies to enhance the user experience.
+  </div>
+  <div
+    className=""
+  >
+    <button
+      aria-label="Accept cookies"
+      className="acceptButton"
+      id="rcc-confirm-button"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      I understand
+    </button>
+  </div>
+</div>
+`;

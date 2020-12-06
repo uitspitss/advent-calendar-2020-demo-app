@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput Snap Shot 1`] = `
+.emotion-0 > input,
+.emotion-0 > textarea {
+  width: 100%;
+  --bg-opacity: 1;
+  background-color: rgba(247,250,252,var(--bg-opacity));
+  border-radius: 0.25rem;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: rgba(203,213,224,var(--border-opacity));
+}
+
+.emotion-0 > input:focus,
+.emotion-0 > textarea:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --border-opacity: 1;
+  border-color: rgba(102,126,234,var(--border-opacity));
+}
+
+.emotion-0 > .error {
+  --text-opacity: 1;
+  color: rgba(245,101,101,var(--text-opacity));
+}
+
+<div
+  className="emotion-0 emotion-1"
+>
+  <label />
+  <input
+    aria-invalid="false"
+    className="emotion-0 emotion-1"
+    placeholder=""
+    type="text"
+  />
+</div>
+`;

@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleForm Snap Shot 1`] = `
+.emotion-10 .headerText {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.emotion-10 .headerText > h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  --text-opacity: 1;
+  color: rgba(102,126,234,var(--text-opacity));
+}
+
+@media (min-width:640px) {
+  .emotion-10 .headerText > h1 {
+    font-size: 1.875rem;
+  }
+}
+
+.emotion-10 .headerText > p {
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.625;
+  font-size: 1rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-10 .headerText > p {
+    width: 66.666667%;
+  }
+}
+
+.emotion-10 .inputFields {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width:768px) {
+  .emotion-10 .inputFields {
+    width: 66.666667%;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-10 .inputFields {
+    width: 50%;
+  }
+}
+
+.emotion-10 .inputFields > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-10 .inputFields > div > div {
+  padding: 0.5rem;
+}
+
+.emotion-10 .inputFields > div > div.submitButton {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.emotion-10 .error-text {
+  --text-opacity: 1;
+  color: rgba(237,100,166,var(--text-opacity));
+}
+
+.emotion-0 > input,
+.emotion-0 > textarea {
+  width: 100%;
+  --bg-opacity: 1;
+  background-color: rgba(247,250,252,var(--bg-opacity));
+  border-radius: 0.25rem;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: rgba(203,213,224,var(--border-opacity));
+}
+
+.emotion-0 > input:focus,
+.emotion-0 > textarea:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --border-opacity: 1;
+  border-color: rgba(102,126,234,var(--border-opacity));
+}
+
+.emotion-0 > .error {
+  --text-opacity: 1;
+  color: rgba(245,101,101,var(--text-opacity));
+}
+
+.emotion-4 > input,
+.emotion-4 > textarea {
+  width: 100%;
+  --bg-opacity: 1;
+  background-color: rgba(247,250,252,var(--bg-opacity));
+  border-radius: 0.25rem;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: rgba(203,213,224,var(--border-opacity));
+  height: 12rem;
+  resize: none;
+  display: block;
+}
+
+.emotion-4 > input:focus,
+.emotion-4 > textarea:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --border-opacity: 1;
+  border-color: rgba(102,126,234,var(--border-opacity));
+}
+
+.emotion-4 > .error {
+  --text-opacity: 1;
+  color: rgba(245,101,101,var(--text-opacity));
+}
+
+.emotion-8 {
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border-style: none;
+  padding: 0.5rem;
+  --bg-opacity: 1;
+  background-color: rgba(102,126,234,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(237,242,247,var(--text-opacity));
+  font-size: 1.125rem;
+}
+
+<div
+  className="emotion-10 emotion-11"
+>
+  <div
+    className="headerText"
+  >
+    <h1>
+      コンタクトフォーム
+    </h1>
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="inputFields"
+    >
+      <div>
+        <div
+          className="email"
+        >
+          <div
+            className="emotion-0 emotion-1"
+          >
+            <label
+              htmlFor="email"
+            >
+              email
+            </label>
+            <input
+              aria-invalid="false"
+              className="emotion-0 emotion-1"
+              id="email"
+              name="email"
+              placeholder="Email"
+              type="email"
+            />
+          </div>
+        </div>
+        <div
+          className="message"
+        >
+          <div
+            className="emotion-4 emotion-1"
+          >
+            <label
+              htmlFor="message"
+            >
+              message
+            </label>
+            <textarea
+              aria-invalid="false"
+              className="emotion-4 emotion-1"
+              id="message"
+              name="message"
+              placeholder="Message"
+            />
+          </div>
+        </div>
+        <div
+          className="submitButton"
+        >
+          <button
+            className="emotion-8 emotion-9"
+            type="submit"
+          >
+            送信
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderMenuList Snap Shot 1`] = `
+.emotion-0 {
+  font-size: 0.875rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-0 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+}
+
+.emotion-0 > a {
+  display: block;
+  margin-top: 1rem;
+  --text-opacity: 1;
+  color: rgba(160,174,192,var(--text-opacity));
+}
+
+@media (min-width:1024px) {
+  .emotion-0 > a {
+    display: inline-block;
+    margin-top: 0;
+  }
+}
+
+.emotion-0 > a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+<div
+  className="emotion-0 emotion-1"
+>
+  <a
+    href="/"
+  >
+    Docs
+  </a>
+  <a
+    href="/"
+  >
+    Examples
+  </a>
+  <a
+    href="/"
+  >
+    Blog
+  </a>
+</div>
+`;

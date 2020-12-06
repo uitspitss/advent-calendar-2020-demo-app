@@ -1,0 +1,3001 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Palette Dark 1`] = `
+.emotion-12 {
+  display: grid;
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.emotion-0 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 1.5rem;
+}
+
+.emotion-0 > .label {
+  padding: 0.5rem;
+  text-align: center;
+  --text-opacity: 1;
+  color: rgba(102,126,234,var(--text-opacity));
+}
+
+.emotion-0 > .box {
+  padding: 0.5rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: rgba(102,126,234,var(--bg-opacity));
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 1.5rem;
+}
+
+.emotion-2 > .label {
+  padding: 0.5rem;
+  text-align: center;
+  --text-opacity: 1;
+  color: rgba(237,100,166,var(--text-opacity));
+}
+
+.emotion-2 > .box {
+  padding: 0.5rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: rgba(237,100,166,var(--bg-opacity));
+}
+
+.emotion-4 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 1.5rem;
+}
+
+.emotion-4 > .label {
+  padding: 0.5rem;
+  text-align: center;
+  --text-opacity: 1;
+  color: rgba(245,101,101,var(--text-opacity));
+}
+
+.emotion-4 > .box {
+  padding: 0.5rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: rgba(245,101,101,var(--bg-opacity));
+}
+
+.emotion-6 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 1.5rem;
+}
+
+.emotion-6 > .label {
+  padding: 0.5rem;
+  text-align: center;
+  --text-opacity: 1;
+  color: rgba(236,201,75,var(--text-opacity));
+}
+
+.emotion-6 > .box {
+  padding: 0.5rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: rgba(236,201,75,var(--bg-opacity));
+}
+
+.emotion-8 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 1.5rem;
+}
+
+.emotion-8 > .label {
+  padding: 0.5rem;
+  text-align: center;
+  --text-opacity: 1;
+  color: rgba(66,153,225,var(--text-opacity));
+}
+
+.emotion-8 > .box {
+  padding: 0.5rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: rgba(66,153,225,var(--bg-opacity));
+}
+
+.emotion-10 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 1.5rem;
+}
+
+.emotion-10 > .label {
+  padding: 0.5rem;
+  text-align: center;
+  --text-opacity: 1;
+  color: rgba(72,187,120,var(--text-opacity));
+}
+
+.emotion-10 > .box {
+  padding: 0.5rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: rgba(72,187,120,var(--bg-opacity));
+}
+
+<div
+  className="emotion-12"
+  style={
+    Object {
+      "backgroundColor": "#747474",
+    }
+  }
+>
+  <div
+    className="emotion-0 emotion-1"
+  >
+    <div
+      className="label"
+    >
+      primary
+    </div>
+    <div
+      className="box"
+    >
+      primary
+    </div>
+  </div>
+  <div
+    className="emotion-2 emotion-1"
+  >
+    <div
+      className="label"
+    >
+      secondary
+    </div>
+    <div
+      className="box"
+    >
+      secondary
+    </div>
+  </div>
+  <div
+    className="emotion-4 emotion-1"
+  >
+    <div
+      className="label"
+    >
+      error
+    </div>
+    <div
+      className="box"
+    >
+      error
+    </div>
+  </div>
+  <div
+    className="emotion-6 emotion-1"
+  >
+    <div
+      className="label"
+    >
+      warning
+    </div>
+    <div
+      className="box"
+    >
+      warning
+    </div>
+  </div>
+  <div
+    className="emotion-8 emotion-1"
+  >
+    <div
+      className="label"
+    >
+      info
+    </div>
+    <div
+      className="box"
+    >
+      info
+    </div>
+  </div>
+  <div
+    className="emotion-10 emotion-1"
+  >
+    <div
+      className="label"
+    >
+      success
+    </div>
+    <div
+      className="box"
+    >
+      success
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Palette Light 1`] = `
+.emotion-12 {
+  display: grid;
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.emotion-0 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 1.5rem;
+}
+
+.emotion-0 > .label {
+  padding: 0.5rem;
+  text-align: center;
+  --text-opacity: 1;
+  color: rgba(102,126,234,var(--text-opacity));
+}
+
+.emotion-0 > .box {
+  padding: 0.5rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: rgba(102,126,234,var(--bg-opacity));
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 1.5rem;
+}
+
+.emotion-2 > .label {
+  padding: 0.5rem;
+  text-align: center;
+  --text-opacity: 1;
+  color: rgba(237,100,166,var(--text-opacity));
+}
+
+.emotion-2 > .box {
+  padding: 0.5rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: rgba(237,100,166,var(--bg-opacity));
+}
+
+.emotion-4 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 1.5rem;
+}
+
+.emotion-4 > .label {
+  padding: 0.5rem;
+  text-align: center;
+  --text-opacity: 1;
+  color: rgba(245,101,101,var(--text-opacity));
+}
+
+.emotion-4 > .box {
+  padding: 0.5rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: rgba(245,101,101,var(--bg-opacity));
+}
+
+.emotion-6 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 1.5rem;
+}
+
+.emotion-6 > .label {
+  padding: 0.5rem;
+  text-align: center;
+  --text-opacity: 1;
+  color: rgba(236,201,75,var(--text-opacity));
+}
+
+.emotion-6 > .box {
+  padding: 0.5rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: rgba(236,201,75,var(--bg-opacity));
+}
+
+.emotion-8 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 1.5rem;
+}
+
+.emotion-8 > .label {
+  padding: 0.5rem;
+  text-align: center;
+  --text-opacity: 1;
+  color: rgba(66,153,225,var(--text-opacity));
+}
+
+.emotion-8 > .box {
+  padding: 0.5rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: rgba(66,153,225,var(--bg-opacity));
+}
+
+.emotion-10 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 1.5rem;
+}
+
+.emotion-10 > .label {
+  padding: 0.5rem;
+  text-align: center;
+  --text-opacity: 1;
+  color: rgba(72,187,120,var(--text-opacity));
+}
+
+.emotion-10 > .box {
+  padding: 0.5rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: rgba(72,187,120,var(--bg-opacity));
+}
+
+<div
+  className="emotion-12"
+  style={
+    Object {
+      "backgroundColor": "#f5f5f5",
+    }
+  }
+>
+  <div
+    className="emotion-0 emotion-1"
+  >
+    <div
+      className="label"
+    >
+      primary
+    </div>
+    <div
+      className="box"
+    >
+      primary
+    </div>
+  </div>
+  <div
+    className="emotion-2 emotion-1"
+  >
+    <div
+      className="label"
+    >
+      secondary
+    </div>
+    <div
+      className="box"
+    >
+      secondary
+    </div>
+  </div>
+  <div
+    className="emotion-4 emotion-1"
+  >
+    <div
+      className="label"
+    >
+      error
+    </div>
+    <div
+      className="box"
+    >
+      error
+    </div>
+  </div>
+  <div
+    className="emotion-6 emotion-1"
+  >
+    <div
+      className="label"
+    >
+      warning
+    </div>
+    <div
+      className="box"
+    >
+      warning
+    </div>
+  </div>
+  <div
+    className="emotion-8 emotion-1"
+  >
+    <div
+      className="label"
+    >
+      info
+    </div>
+    <div
+      className="box"
+    >
+      info
+    </div>
+  </div>
+  <div
+    className="emotion-10 emotion-1"
+  >
+    <div
+      className="label"
+    >
+      success
+    </div>
+    <div
+      className="box"
+    >
+      success
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots atoms/Button Default 1`] = `
+.emotion-0 {
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border-style: none;
+  padding: 0.5rem;
+}
+
+<button
+  className="emotion-0 emotion-1"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots atoms/Button Large 1`] = `
+.emotion-0 {
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border-style: none;
+  padding: 0.5rem;
+  font-size: 1.125rem;
+}
+
+<button
+  className="emotion-0 emotion-1"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots atoms/Button Primary 1`] = `
+.emotion-0 {
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border-style: none;
+  padding: 0.5rem;
+  --bg-opacity: 1;
+  background-color: rgba(102,126,234,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(237,242,247,var(--text-opacity));
+}
+
+<button
+  className="emotion-0 emotion-1"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots atoms/Button Secondary 1`] = `
+.emotion-0 {
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border-style: none;
+  padding: 0.5rem;
+  --bg-opacity: 1;
+  background-color: rgba(237,100,166,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(237,242,247,var(--text-opacity));
+}
+
+<button
+  className="emotion-0 emotion-1"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots atoms/Button Small 1`] = `
+.emotion-0 {
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border-style: none;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+}
+
+<button
+  className="emotion-0 emotion-1"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots atoms/MenuToggleButton Closed 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-width: 0;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.emotion-0 svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.emotion-0 svg path {
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4,0,1,1);
+  transition-timing-function: cubic-bezier(0.4,0,1,1);
+}
+
+.emotion-0 svg path.open {
+  opacity: 0;
+}
+
+.emotion-0 svg path.closed {
+  opacity: 1;
+}
+
+<button
+  className="emotion-0 emotion-1"
+  type="button"
+>
+  <svg
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      className="open"
+      d="M6 18L18 6M6 6l12 12"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+    />
+    <path
+      className="closed"
+      d="M4 6h16M4 12h16M4 18h16"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+    />
+  </svg>
+</button>
+`;
+
+exports[`Storyshots atoms/MenuToggleButton Open 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-width: 0;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.emotion-0 svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.emotion-0 svg path {
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4,0,1,1);
+  transition-timing-function: cubic-bezier(0.4,0,1,1);
+}
+
+.emotion-0 svg path.open {
+  opacity: 1;
+}
+
+.emotion-0 svg path.closed {
+  opacity: 0;
+}
+
+<button
+  className="emotion-0 emotion-1"
+  type="button"
+>
+  <svg
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      className="open"
+      d="M6 18L18 6M6 6l12 12"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+    />
+    <path
+      className="closed"
+      d="M4 6h16M4 12h16M4 18h16"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+    />
+  </svg>
+</button>
+`;
+
+exports[`Storyshots atoms/TextInput Input 1`] = `
+.emotion-0 > input,
+.emotion-0 > textarea {
+  width: 100%;
+  --bg-opacity: 1;
+  background-color: rgba(247,250,252,var(--bg-opacity));
+  border-radius: 0.25rem;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: rgba(203,213,224,var(--border-opacity));
+}
+
+.emotion-0 > input:focus,
+.emotion-0 > textarea:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --border-opacity: 1;
+  border-color: rgba(102,126,234,var(--border-opacity));
+}
+
+.emotion-0 > .error {
+  --text-opacity: 1;
+  color: rgba(245,101,101,var(--text-opacity));
+}
+
+<div
+  className="emotion-0 emotion-1"
+>
+  <label />
+  <input
+    aria-invalid="false"
+    className="emotion-0 emotion-1"
+    placeholder="placeholder"
+    type="text"
+  />
+</div>
+`;
+
+exports[`Storyshots atoms/TextInput Textarea 1`] = `
+.emotion-0 > input,
+.emotion-0 > textarea {
+  width: 100%;
+  --bg-opacity: 1;
+  background-color: rgba(247,250,252,var(--bg-opacity));
+  border-radius: 0.25rem;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: rgba(203,213,224,var(--border-opacity));
+  height: 12rem;
+  resize: none;
+  display: block;
+}
+
+.emotion-0 > input:focus,
+.emotion-0 > textarea:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --border-opacity: 1;
+  border-color: rgba(102,126,234,var(--border-opacity));
+}
+
+.emotion-0 > .error {
+  --text-opacity: 1;
+  color: rgba(245,101,101,var(--text-opacity));
+}
+
+<div
+  className="emotion-0 emotion-1"
+>
+  <label />
+  <textarea
+    aria-invalid="false"
+    className="emotion-0 emotion-1"
+    placeholder="placeholder"
+  />
+</div>
+`;
+
+exports[`Storyshots molecules/CookieNotification Default 1`] = `
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  to {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.emotion-0 {
+  -webkit-animation: animation-0 0.5s ease;
+  animation: animation-0 0.5s ease;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  --bg-opacity: 1;
+  background-color: rgba(66,153,225,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(255,255,255,var(--text-opacity));
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+  transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+}
+
+.emotion-0 > div > .acceptButton {
+  --bg-opacity: 1;
+  background-color: rgba(237,100,166,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(255,255,255,var(--text-opacity));
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 0.5rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.emotion-0 > div > .acceptButton:hover {
+  --bg-opacity: 1;
+  background-color: rgba(184,50,128,var(--bg-opacity));
+}
+
+.emotion-0 > div > .declineButton {
+  background-color: transparent;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  --text-opacity: 1;
+  color: rgba(255,255,255,var(--text-opacity));
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.emotion-0 > div > .declineButton:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div
+  className="emotion-0 emotion-1"
+  style={
+    Object {
+      "top": "0",
+    }
+  }
+>
+  <div
+    className=""
+    style={Object {}}
+  >
+    This website uses cookies to enhance the user experience.
+  </div>
+  <div
+    className=""
+  >
+    <button
+      aria-label="Accept cookies"
+      className="acceptButton"
+      id="rcc-confirm-button"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      I understand
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots molecules/HeaderMenu Desktop 1`] = `
+.emotion-0 {
+  font-size: 0.875rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-0 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+}
+
+.emotion-0 > a {
+  display: block;
+  margin-top: 1rem;
+  --text-opacity: 1;
+  color: rgba(160,174,192,var(--text-opacity));
+}
+
+@media (min-width:1024px) {
+  .emotion-0 > a {
+    display: inline-block;
+    margin-top: 0;
+  }
+}
+
+.emotion-0 > a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+<div
+  className="emotion-0 emotion-1"
+>
+  <a
+    href="/"
+  >
+    Docs
+  </a>
+  <a
+    href="/"
+  >
+    Examples
+  </a>
+  <a
+    href="/"
+  >
+    Blog
+  </a>
+</div>
+`;
+
+exports[`Storyshots molecules/HeaderMenu Mobile 1`] = `
+.emotion-0 {
+  font-size: 0.875rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-0 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+}
+
+.emotion-0 > a {
+  display: block;
+  margin-top: 1rem;
+  --text-opacity: 1;
+  color: rgba(160,174,192,var(--text-opacity));
+}
+
+@media (min-width:1024px) {
+  .emotion-0 > a {
+    display: inline-block;
+    margin-top: 0;
+  }
+}
+
+.emotion-0 > a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+<div
+  className="emotion-0 emotion-1"
+>
+  <a
+    href="/"
+  >
+    Docs
+  </a>
+  <a
+    href="/"
+  >
+    Examples
+  </a>
+  <a
+    href="/"
+  >
+    Blog
+  </a>
+</div>
+`;
+
+exports[`Storyshots organisms/Footer Desktop 1`] = `
+.emotion-0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width:640px) {
+  .emotion-0 > div {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-0 > div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.emotion-0 > div > p {
+  font-size: 0.875rem;
+  --text-opacity: 1;
+  color: rgba(160,174,192,var(--text-opacity));
+}
+
+.emotion-0 > div > p > a {
+  --text-opacity: 1;
+  color: rgba(113,128,150,var(--text-opacity));
+  margin-left: 0.25rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<footer
+  className="emotion-0 emotion-1"
+>
+  <div>
+    <p>
+      ©
+      2020
+       
+      *WEBSITE TITLE* —
+      <a
+        href="https://twitter.com/uitspitss"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        @uitspitss
+      </a>
+    </p>
+  </div>
+</footer>
+`;
+
+exports[`Storyshots organisms/Footer Mobile 1`] = `
+.emotion-0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width:640px) {
+  .emotion-0 > div {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-0 > div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.emotion-0 > div > p {
+  font-size: 0.875rem;
+  --text-opacity: 1;
+  color: rgba(160,174,192,var(--text-opacity));
+}
+
+.emotion-0 > div > p > a {
+  --text-opacity: 1;
+  color: rgba(113,128,150,var(--text-opacity));
+  margin-left: 0.25rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<footer
+  className="emotion-0 emotion-1"
+>
+  <div>
+    <p>
+      ©
+      2020
+       
+      *WEBSITE TITLE* —
+      <a
+        href="https://twitter.com/uitspitss"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        @uitspitss
+      </a>
+    </p>
+  </div>
+</footer>
+`;
+
+exports[`Storyshots organisms/Header Desktop 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-width: 0;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.emotion-0 svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.emotion-0 svg path {
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4,0,1,1);
+  transition-timing-function: cubic-bezier(0.4,0,1,1);
+}
+
+.emotion-0 svg path.open {
+  opacity: 0;
+}
+
+.emotion-0 svg path.closed {
+  opacity: 1;
+}
+
+.emotion-2 {
+  font-size: 0.875rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-2 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+}
+
+.emotion-2 > a {
+  display: block;
+  margin-top: 1rem;
+  --text-opacity: 1;
+  color: rgba(160,174,192,var(--text-opacity));
+}
+
+@media (min-width:1024px) {
+  .emotion-2 > a {
+    display: inline-block;
+    margin-top: 0;
+  }
+}
+
+.emotion-2 > a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.emotion-4 > div {
+  --bg-opacity: 1;
+  background-color: rgba(163,191,250,var(--bg-opacity));
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-4 > div {
+    margin-bottom: 1rem;
+  }
+}
+
+.emotion-4 > div > nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-4 > div > nav {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.emotion-4 > div > nav > .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 1.5rem;
+}
+
+.emotion-4 > div > nav > .title > span {
+  --text-opacity: 1;
+  color: rgba(247,250,252,var(--text-opacity));
+  font-weight: 600;
+  font-size: 1.25rem;
+  -webkit-letter-spacing: -0.025em;
+  -moz-letter-spacing: -0.025em;
+  -ms-letter-spacing: -0.025em;
+  letter-spacing: -0.025em;
+}
+
+.emotion-4 > div > nav > .toggleButton {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width:1024px) {
+  .emotion-4 > div > nav > .toggleButton {
+    display: none;
+  }
+}
+
+.emotion-4 > div > nav > .menuList {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: none;
+}
+
+@media (min-width:1024px) {
+  .emotion-4 > div > nav > .menuList {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: auto;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-4 > div > nav > .menuList {
+    display: block;
+  }
+}
+
+<header
+  className="emotion-4 emotion-5"
+>
+  <div>
+    <nav>
+      <div
+        className="title"
+      >
+        <span>
+          *WEBSITE TITLE*
+        </span>
+      </div>
+      <div
+        className="toggleButton"
+      >
+        <button
+          className="emotion-0 emotion-1"
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              className="open"
+              d="M6 18L18 6M6 6l12 12"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+            />
+            <path
+              className="closed"
+              d="M4 6h16M4 12h16M4 18h16"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        className="menuList"
+      >
+        <div
+          className="emotion-2 emotion-3"
+        >
+          <a
+            href="/"
+          >
+            Docs
+          </a>
+          <a
+            href="/"
+          >
+            Examples
+          </a>
+          <a
+            href="/"
+          >
+            Blog
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+`;
+
+exports[`Storyshots organisms/Header Mobile 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-width: 0;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.emotion-0 svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.emotion-0 svg path {
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4,0,1,1);
+  transition-timing-function: cubic-bezier(0.4,0,1,1);
+}
+
+.emotion-0 svg path.open {
+  opacity: 0;
+}
+
+.emotion-0 svg path.closed {
+  opacity: 1;
+}
+
+.emotion-2 {
+  font-size: 0.875rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-2 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+}
+
+.emotion-2 > a {
+  display: block;
+  margin-top: 1rem;
+  --text-opacity: 1;
+  color: rgba(160,174,192,var(--text-opacity));
+}
+
+@media (min-width:1024px) {
+  .emotion-2 > a {
+    display: inline-block;
+    margin-top: 0;
+  }
+}
+
+.emotion-2 > a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.emotion-4 > div {
+  --bg-opacity: 1;
+  background-color: rgba(163,191,250,var(--bg-opacity));
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-4 > div {
+    margin-bottom: 1rem;
+  }
+}
+
+.emotion-4 > div > nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-4 > div > nav {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.emotion-4 > div > nav > .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 1.5rem;
+}
+
+.emotion-4 > div > nav > .title > span {
+  --text-opacity: 1;
+  color: rgba(247,250,252,var(--text-opacity));
+  font-weight: 600;
+  font-size: 1.25rem;
+  -webkit-letter-spacing: -0.025em;
+  -moz-letter-spacing: -0.025em;
+  -ms-letter-spacing: -0.025em;
+  letter-spacing: -0.025em;
+}
+
+.emotion-4 > div > nav > .toggleButton {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width:1024px) {
+  .emotion-4 > div > nav > .toggleButton {
+    display: none;
+  }
+}
+
+.emotion-4 > div > nav > .menuList {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: none;
+}
+
+@media (min-width:1024px) {
+  .emotion-4 > div > nav > .menuList {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: auto;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-4 > div > nav > .menuList {
+    display: block;
+  }
+}
+
+<header
+  className="emotion-4 emotion-5"
+>
+  <div>
+    <nav>
+      <div
+        className="title"
+      >
+        <span>
+          *WEBSITE TITLE*
+        </span>
+      </div>
+      <div
+        className="toggleButton"
+      >
+        <button
+          className="emotion-0 emotion-1"
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              className="open"
+              d="M6 18L18 6M6 6l12 12"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+            />
+            <path
+              className="closed"
+              d="M4 6h16M4 12h16M4 18h16"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        className="menuList"
+      >
+        <div
+          className="emotion-2 emotion-3"
+        >
+          <a
+            href="/"
+          >
+            Docs
+          </a>
+          <a
+            href="/"
+          >
+            Examples
+          </a>
+          <a
+            href="/"
+          >
+            Blog
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+`;
+
+exports[`Storyshots organisms/SimpleForm Desktop 1`] = `
+.emotion-0 > input,
+.emotion-0 > textarea {
+  width: 100%;
+  --bg-opacity: 1;
+  background-color: rgba(247,250,252,var(--bg-opacity));
+  border-radius: 0.25rem;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: rgba(203,213,224,var(--border-opacity));
+}
+
+.emotion-0 > input:focus,
+.emotion-0 > textarea:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --border-opacity: 1;
+  border-color: rgba(102,126,234,var(--border-opacity));
+}
+
+.emotion-0 > .error {
+  --text-opacity: 1;
+  color: rgba(245,101,101,var(--text-opacity));
+}
+
+.emotion-4 > input,
+.emotion-4 > textarea {
+  width: 100%;
+  --bg-opacity: 1;
+  background-color: rgba(247,250,252,var(--bg-opacity));
+  border-radius: 0.25rem;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: rgba(203,213,224,var(--border-opacity));
+  height: 12rem;
+  resize: none;
+  display: block;
+}
+
+.emotion-4 > input:focus,
+.emotion-4 > textarea:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --border-opacity: 1;
+  border-color: rgba(102,126,234,var(--border-opacity));
+}
+
+.emotion-4 > .error {
+  --text-opacity: 1;
+  color: rgba(245,101,101,var(--text-opacity));
+}
+
+.emotion-10 .headerText {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.emotion-10 .headerText > h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  --text-opacity: 1;
+  color: rgba(102,126,234,var(--text-opacity));
+}
+
+@media (min-width:640px) {
+  .emotion-10 .headerText > h1 {
+    font-size: 1.875rem;
+  }
+}
+
+.emotion-10 .headerText > p {
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.625;
+  font-size: 1rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-10 .headerText > p {
+    width: 66.666667%;
+  }
+}
+
+.emotion-10 .inputFields {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width:768px) {
+  .emotion-10 .inputFields {
+    width: 66.666667%;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-10 .inputFields {
+    width: 50%;
+  }
+}
+
+.emotion-10 .inputFields > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-10 .inputFields > div > div {
+  padding: 0.5rem;
+}
+
+.emotion-10 .inputFields > div > div.submitButton {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.emotion-10 .error-text {
+  --text-opacity: 1;
+  color: rgba(237,100,166,var(--text-opacity));
+}
+
+.emotion-8 {
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border-style: none;
+  padding: 0.5rem;
+  --bg-opacity: 1;
+  background-color: rgba(102,126,234,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(237,242,247,var(--text-opacity));
+  font-size: 1.125rem;
+}
+
+<div
+  className="emotion-10 emotion-11"
+>
+  <div
+    className="headerText"
+  >
+    <h1>
+      コンタクトフォーム
+    </h1>
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="inputFields"
+    >
+      <div>
+        <div
+          className="email"
+        >
+          <div
+            className="emotion-0 emotion-1"
+          >
+            <label
+              htmlFor="email"
+            >
+              email
+            </label>
+            <input
+              aria-invalid="false"
+              className="emotion-0 emotion-1"
+              id="email"
+              name="email"
+              placeholder="Email"
+              type="email"
+            />
+          </div>
+        </div>
+        <div
+          className="message"
+        >
+          <div
+            className="emotion-4 emotion-1"
+          >
+            <label
+              htmlFor="message"
+            >
+              message
+            </label>
+            <textarea
+              aria-invalid="false"
+              className="emotion-4 emotion-1"
+              id="message"
+              name="message"
+              placeholder="Message"
+            />
+          </div>
+        </div>
+        <div
+          className="submitButton"
+        >
+          <button
+            className="emotion-8 emotion-9"
+            type="submit"
+          >
+            送信
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Storyshots organisms/SimpleForm Mobile 1`] = `
+.emotion-0 > input,
+.emotion-0 > textarea {
+  width: 100%;
+  --bg-opacity: 1;
+  background-color: rgba(247,250,252,var(--bg-opacity));
+  border-radius: 0.25rem;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: rgba(203,213,224,var(--border-opacity));
+}
+
+.emotion-0 > input:focus,
+.emotion-0 > textarea:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --border-opacity: 1;
+  border-color: rgba(102,126,234,var(--border-opacity));
+}
+
+.emotion-0 > .error {
+  --text-opacity: 1;
+  color: rgba(245,101,101,var(--text-opacity));
+}
+
+.emotion-4 > input,
+.emotion-4 > textarea {
+  width: 100%;
+  --bg-opacity: 1;
+  background-color: rgba(247,250,252,var(--bg-opacity));
+  border-radius: 0.25rem;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: rgba(203,213,224,var(--border-opacity));
+  height: 12rem;
+  resize: none;
+  display: block;
+}
+
+.emotion-4 > input:focus,
+.emotion-4 > textarea:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --border-opacity: 1;
+  border-color: rgba(102,126,234,var(--border-opacity));
+}
+
+.emotion-4 > .error {
+  --text-opacity: 1;
+  color: rgba(245,101,101,var(--text-opacity));
+}
+
+.emotion-10 .headerText {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.emotion-10 .headerText > h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  --text-opacity: 1;
+  color: rgba(102,126,234,var(--text-opacity));
+}
+
+@media (min-width:640px) {
+  .emotion-10 .headerText > h1 {
+    font-size: 1.875rem;
+  }
+}
+
+.emotion-10 .headerText > p {
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.625;
+  font-size: 1rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-10 .headerText > p {
+    width: 66.666667%;
+  }
+}
+
+.emotion-10 .inputFields {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width:768px) {
+  .emotion-10 .inputFields {
+    width: 66.666667%;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-10 .inputFields {
+    width: 50%;
+  }
+}
+
+.emotion-10 .inputFields > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-10 .inputFields > div > div {
+  padding: 0.5rem;
+}
+
+.emotion-10 .inputFields > div > div.submitButton {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.emotion-10 .error-text {
+  --text-opacity: 1;
+  color: rgba(237,100,166,var(--text-opacity));
+}
+
+.emotion-8 {
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border-style: none;
+  padding: 0.5rem;
+  --bg-opacity: 1;
+  background-color: rgba(102,126,234,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(237,242,247,var(--text-opacity));
+  font-size: 1.125rem;
+}
+
+<div
+  className="emotion-10 emotion-11"
+>
+  <div
+    className="headerText"
+  >
+    <h1>
+      コンタクトフォーム
+    </h1>
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="inputFields"
+    >
+      <div>
+        <div
+          className="email"
+        >
+          <div
+            className="emotion-0 emotion-1"
+          >
+            <label
+              htmlFor="email"
+            >
+              email
+            </label>
+            <input
+              aria-invalid="false"
+              className="emotion-0 emotion-1"
+              id="email"
+              name="email"
+              placeholder="Email"
+              type="email"
+            />
+          </div>
+        </div>
+        <div
+          className="message"
+        >
+          <div
+            className="emotion-4 emotion-1"
+          >
+            <label
+              htmlFor="message"
+            >
+              message
+            </label>
+            <textarea
+              aria-invalid="false"
+              className="emotion-4 emotion-1"
+              id="message"
+              name="message"
+              placeholder="Message"
+            />
+          </div>
+        </div>
+        <div
+          className="submitButton"
+        >
+          <button
+            className="emotion-8 emotion-9"
+            type="submit"
+          >
+            送信
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Storyshots organisms/UserList Default 1`] = `
+<div
+  className="emotion-0 emotion-1"
+>
+  <p>
+    1
+    : 
+    john
+  </p>
+  <p>
+    2
+    : 
+    lisa
+  </p>
+</div>
+`;
+
+exports[`Storyshots templates/Layout Desktop 1`] = `
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  to {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-width: 0;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.emotion-2 svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.emotion-2 svg path {
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4,0,1,1);
+  transition-timing-function: cubic-bezier(0.4,0,1,1);
+}
+
+.emotion-2 svg path.open {
+  opacity: 0;
+}
+
+.emotion-2 svg path.closed {
+  opacity: 1;
+}
+
+.emotion-0 {
+  -webkit-animation: animation-0 0.5s ease;
+  animation: animation-0 0.5s ease;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  --bg-opacity: 1;
+  background-color: rgba(66,153,225,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(255,255,255,var(--text-opacity));
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+  transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+}
+
+.emotion-0 > div > .acceptButton {
+  --bg-opacity: 1;
+  background-color: rgba(237,100,166,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(255,255,255,var(--text-opacity));
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 0.5rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.emotion-0 > div > .acceptButton:hover {
+  --bg-opacity: 1;
+  background-color: rgba(184,50,128,var(--bg-opacity));
+}
+
+.emotion-0 > div > .declineButton {
+  background-color: transparent;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  --text-opacity: 1;
+  color: rgba(255,255,255,var(--text-opacity));
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.emotion-0 > div > .declineButton:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-4 {
+  font-size: 0.875rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-4 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+}
+
+.emotion-4 > a {
+  display: block;
+  margin-top: 1rem;
+  --text-opacity: 1;
+  color: rgba(160,174,192,var(--text-opacity));
+}
+
+@media (min-width:1024px) {
+  .emotion-4 > a {
+    display: inline-block;
+    margin-top: 0;
+  }
+}
+
+.emotion-4 > a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.emotion-9 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width:640px) {
+  .emotion-9 > div {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-9 > div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.emotion-9 > div > p {
+  font-size: 0.875rem;
+  --text-opacity: 1;
+  color: rgba(160,174,192,var(--text-opacity));
+}
+
+.emotion-9 > div > p > a {
+  --text-opacity: 1;
+  color: rgba(113,128,150,var(--text-opacity));
+  margin-left: 0.25rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-6 > div {
+  --bg-opacity: 1;
+  background-color: rgba(163,191,250,var(--bg-opacity));
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-6 > div {
+    margin-bottom: 1rem;
+  }
+}
+
+.emotion-6 > div > nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-6 > div > nav {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.emotion-6 > div > nav > .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 1.5rem;
+}
+
+.emotion-6 > div > nav > .title > span {
+  --text-opacity: 1;
+  color: rgba(247,250,252,var(--text-opacity));
+  font-weight: 600;
+  font-size: 1.25rem;
+  -webkit-letter-spacing: -0.025em;
+  -moz-letter-spacing: -0.025em;
+  -ms-letter-spacing: -0.025em;
+  letter-spacing: -0.025em;
+}
+
+.emotion-6 > div > nav > .toggleButton {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width:1024px) {
+  .emotion-6 > div > nav > .toggleButton {
+    display: none;
+  }
+}
+
+.emotion-6 > div > nav > .menuList {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: none;
+}
+
+@media (min-width:1024px) {
+  .emotion-6 > div > nav > .menuList {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: auto;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-6 > div > nav > .menuList {
+    display: block;
+  }
+}
+
+.emotion-8 {
+  --bg-opacity: 1;
+  background-color: rgba(160,174,192,var(--bg-opacity));
+  padding: 1rem;
+}
+
+<div
+  className="emotion-11 emotion-12"
+>
+  <div
+    className="cookieNotification emotion-0 emotion-1"
+    style={
+      Object {
+        "top": "0",
+      }
+    }
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      This website uses cookies to enhance the user experience.
+    </div>
+    <div
+      className=""
+    >
+      <button
+        aria-label="Accept cookies"
+        className="acceptButton"
+        id="rcc-confirm-button"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        I understand
+      </button>
+    </div>
+  </div>
+  <header
+    className="emotion-6 emotion-7"
+  >
+    <div>
+      <nav>
+        <div
+          className="title"
+        >
+          <span>
+            *WEBSITE TITLE*
+          </span>
+        </div>
+        <div
+          className="toggleButton"
+        >
+          <button
+            className="emotion-2 emotion-3"
+            onClick={[Function]}
+            type="button"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                className="open"
+                d="M6 18L18 6M6 6l12 12"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+              />
+              <path
+                className="closed"
+                d="M4 6h16M4 12h16M4 18h16"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          className="menuList"
+        >
+          <div
+            className="emotion-4 emotion-5"
+          >
+            <a
+              href="/"
+            >
+              Docs
+            </a>
+            <a
+              href="/"
+            >
+              Examples
+            </a>
+            <a
+              href="/"
+            >
+              Blog
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div
+      className="emotion-8"
+    >
+      MAIN CONTENT
+    </div>
+  </main>
+  <footer
+    className="emotion-9 emotion-10"
+  >
+    <div>
+      <p>
+        ©
+        2020
+         
+        *WEBSITE TITLE* —
+        <a
+          href="https://twitter.com/uitspitss"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          @uitspitss
+        </a>
+      </p>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Storyshots templates/Layout Mobile 1`] = `
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  to {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-width: 0;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.emotion-2 svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.emotion-2 svg path {
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4,0,1,1);
+  transition-timing-function: cubic-bezier(0.4,0,1,1);
+}
+
+.emotion-2 svg path.open {
+  opacity: 0;
+}
+
+.emotion-2 svg path.closed {
+  opacity: 1;
+}
+
+.emotion-0 {
+  -webkit-animation: animation-0 0.5s ease;
+  animation: animation-0 0.5s ease;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  --bg-opacity: 1;
+  background-color: rgba(66,153,225,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(255,255,255,var(--text-opacity));
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+  transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+}
+
+.emotion-0 > div > .acceptButton {
+  --bg-opacity: 1;
+  background-color: rgba(237,100,166,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(255,255,255,var(--text-opacity));
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 0.5rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.emotion-0 > div > .acceptButton:hover {
+  --bg-opacity: 1;
+  background-color: rgba(184,50,128,var(--bg-opacity));
+}
+
+.emotion-0 > div > .declineButton {
+  background-color: transparent;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  --text-opacity: 1;
+  color: rgba(255,255,255,var(--text-opacity));
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.emotion-0 > div > .declineButton:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-4 {
+  font-size: 0.875rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-4 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+}
+
+.emotion-4 > a {
+  display: block;
+  margin-top: 1rem;
+  --text-opacity: 1;
+  color: rgba(160,174,192,var(--text-opacity));
+}
+
+@media (min-width:1024px) {
+  .emotion-4 > a {
+    display: inline-block;
+    margin-top: 0;
+  }
+}
+
+.emotion-4 > a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.emotion-9 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width:640px) {
+  .emotion-9 > div {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-9 > div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.emotion-9 > div > p {
+  font-size: 0.875rem;
+  --text-opacity: 1;
+  color: rgba(160,174,192,var(--text-opacity));
+}
+
+.emotion-9 > div > p > a {
+  --text-opacity: 1;
+  color: rgba(113,128,150,var(--text-opacity));
+  margin-left: 0.25rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-6 > div {
+  --bg-opacity: 1;
+  background-color: rgba(163,191,250,var(--bg-opacity));
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-6 > div {
+    margin-bottom: 1rem;
+  }
+}
+
+.emotion-6 > div > nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width:1024px) {
+  .emotion-6 > div > nav {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.emotion-6 > div > nav > .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 1.5rem;
+}
+
+.emotion-6 > div > nav > .title > span {
+  --text-opacity: 1;
+  color: rgba(247,250,252,var(--text-opacity));
+  font-weight: 600;
+  font-size: 1.25rem;
+  -webkit-letter-spacing: -0.025em;
+  -moz-letter-spacing: -0.025em;
+  -ms-letter-spacing: -0.025em;
+  letter-spacing: -0.025em;
+}
+
+.emotion-6 > div > nav > .toggleButton {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width:1024px) {
+  .emotion-6 > div > nav > .toggleButton {
+    display: none;
+  }
+}
+
+.emotion-6 > div > nav > .menuList {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: none;
+}
+
+@media (min-width:1024px) {
+  .emotion-6 > div > nav > .menuList {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: auto;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-6 > div > nav > .menuList {
+    display: block;
+  }
+}
+
+.emotion-8 {
+  --bg-opacity: 1;
+  background-color: rgba(160,174,192,var(--bg-opacity));
+  padding: 1rem;
+}
+
+<div
+  className="emotion-11 emotion-12"
+>
+  <div
+    className="cookieNotification emotion-0 emotion-1"
+    style={
+      Object {
+        "top": "0",
+      }
+    }
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      This website uses cookies to enhance the user experience.
+    </div>
+    <div
+      className=""
+    >
+      <button
+        aria-label="Accept cookies"
+        className="acceptButton"
+        id="rcc-confirm-button"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        I understand
+      </button>
+    </div>
+  </div>
+  <header
+    className="emotion-6 emotion-7"
+  >
+    <div>
+      <nav>
+        <div
+          className="title"
+        >
+          <span>
+            *WEBSITE TITLE*
+          </span>
+        </div>
+        <div
+          className="toggleButton"
+        >
+          <button
+            className="emotion-2 emotion-3"
+            onClick={[Function]}
+            type="button"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                className="open"
+                d="M6 18L18 6M6 6l12 12"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+              />
+              <path
+                className="closed"
+                d="M4 6h16M4 12h16M4 18h16"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          className="menuList"
+        >
+          <div
+            className="emotion-4 emotion-5"
+          >
+            <a
+              href="/"
+            >
+              Docs
+            </a>
+            <a
+              href="/"
+            >
+              Examples
+            </a>
+            <a
+              href="/"
+            >
+              Blog
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div
+      className="emotion-8"
+    >
+      MAIN CONTENT
+    </div>
+  </main>
+  <footer
+    className="emotion-9 emotion-10"
+  >
+    <div>
+      <p>
+        ©
+        2020
+         
+        *WEBSITE TITLE* —
+        <a
+          href="https://twitter.com/uitspitss"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          @uitspitss
+        </a>
+      </p>
+    </div>
+  </footer>
+</div>
+`;

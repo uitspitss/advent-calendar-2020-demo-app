@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    volumes:
+      - ./:/app
+    command: yarn dev
+    ports:
+      - "3000:3000"
+  storybook:
+    build: .
+    volumes:
+      - ./:/app
+    command: yarn storybook --ci
+    ports:
+      - "6006:6006"

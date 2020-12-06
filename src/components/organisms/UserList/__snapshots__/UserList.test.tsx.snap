@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`organisms/UserList Snap Shot 1`] = `
+<div
+  className="css-ghlsvi-StyledComponent emotion-0"
+>
+  <p>
+    1
+    : 
+    john
+  </p>
+  <p>
+    2
+    : 
+    lisa
+  </p>
+</div>
+`;
