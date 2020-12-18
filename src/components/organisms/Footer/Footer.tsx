@@ -17,7 +17,7 @@ const Component: FC<Props> = (props) => {
     <footer className={className}>
       <div>
         <p>
-          ©{copyrightYears(2020)} *WEBSITE TITLE* —
+          ©{copyrightYears(2020)} プチ魚拓 —
           <a
             href="https://twitter.com/uitspitss"
             rel="noopener noreferrer"

@@ -1,6 +1,5 @@
 import React, { FC } from 'react';
 import tw, { styled } from 'twin.macro';
-import Link from 'next/link';
 
 export type HeaderMenuProps = {
   className?: string;
@@ -12,13 +11,7 @@ type Props = HeaderMenuProps;
 const Component: FC<Props> = (props) => {
   const { className } = props;
 
-  return (
-    <div className={className}>
-      <Link href="/users-ssr">Users SSR</Link>
-      <a href="/users-ssg">Users SSG</a>
-      <a href="/users-swr">Users useSWR</a>
-    </div>
-  );
+  return <div className={className} />;
 };
 
 const StyledComponent = styled(Component)`

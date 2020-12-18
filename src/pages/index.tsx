@@ -1,42 +1,34 @@
-import React, { FC } from 'react';
+import React, { VFC } from 'react';
 import { NextPage } from 'next';
-import { NextSeo } from 'next-seo';
 import { styled } from 'twin.macro';
-
-import { SimpleForm, FormValues } from 'components/organisms/SimpleForm';
+import { format } from 'date-fns';
 
 type IndexPageProps = {
-  children?: never;
   className?: string;
+  nowDateString: string;
 };
 
-type Props = {
-  onSubmit: ({ email, message }: FormValues) => void;
-} & IndexPageProps;
+type Props = IndexPageProps;
 
-const Component: FC<Props> = (props) => {
-  const { className, onSubmit } = props;
+const Component: VFC<Props> = (props) => {
+  const { className, nowDateString } = props;
 
-  return (
-    <div className={className}>
-      <SimpleForm onSubmit={onSubmit} />
-    </div>
-  );
+  return <div className={className}>{nowDateString}</div>;
 };
 
 const StyledComponent = styled(Component)``;
 
 const IndexPage: NextPage<IndexPageProps> = (props) => {
-  // FIXME: when use production
-  // eslint-disable-next-line
-  const onSubmit = (data: FormValues) => console.log(data);
+  return <StyledComponent {...props} />;
+};
 
-  return (
-    <>
-      <NextSeo title="Index" />
-      <StyledComponent {...props} onSubmit={onSubmit} />
-    </>
-  );
+export const getStaticProps = async () => {
+  const nowDateString = format(new Date(), 'HH:mm:ss MM/dd/yyyy');
+
+  return {
+    props: { nowDateString },
+    revalidate: 100,
+  };
 };
 
 export default IndexPage;

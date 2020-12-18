@@ -24,7 +24,7 @@ const Component: FC<Props> = (props) => {
         <nav>
           <div className="title">
             <Link href="/">
-              <span>*WEBSITE TITLE*</span>
+              <span>プチ魚拓</span>
             </Link>
           </div>
           <div className="toggleButton">

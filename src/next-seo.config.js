@@ -1,11 +1,10 @@
 export default {
-  title: '*WEBSITE TITLE*',
-  titleTemplate: '%s | *WEBSITE TITLE*',
+  title: 'プチ魚拓',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.url.ie/',
-    site_name: '*WEBSITE TITLE*',
+    site_name: 'プチ魚拓',
   },
   twitter: {
     handle: '@uitspitss',
