@@ -2,7 +2,7 @@ import React, { VFC } from 'react';
 import { NextPage, GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import tw, { styled } from 'twin.macro';
-import { format } from 'date-fns';
+import { format, ja } from 'date-fns';
 
 type DateDescriptionPageProps = {
   className?: string;
@@ -49,7 +49,9 @@ const DateDescriptionPage: NextPage<DateDescriptionPageProps> = (props) => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const nowDateString = format(new Date(), 'HH:mm:ss MM/dd/yyyy');
+  const nowDateString = format(new Date(), 'HH:mm:ss MM/dd/yyyy', {
+    locale: ja,
+  });
 
   return {
     props: { nowDateString },
