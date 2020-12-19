@@ -1,5 +1,5 @@
 import React, { FC, ReactNode } from 'react';
-import { styled } from 'twin.macro';
+import tw, { styled } from 'twin.macro';
 
 import { Header } from 'components/organisms/Header';
 import { Footer } from 'components/organisms/Footer';
@@ -25,7 +25,11 @@ const Component: FC<Props> = (props) => {
   );
 };
 
-const StyledComponent = styled(Component)``;
+const StyledComponent = styled(Component)`
+  & > main {
+    ${tw`grid place-items-center py-10`}
+  }
+`;
 
 /**
  * レイアウト

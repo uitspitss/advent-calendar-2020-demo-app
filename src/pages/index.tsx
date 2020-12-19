@@ -36,8 +36,6 @@ const Component: VFC<Props> = (props) => {
 };
 
 const StyledComponent = styled(Component)`
-  ${tw`grid place-items-center py-10`}
-
   & > .form {
     ${tw`flex flex-col items-center`}
 

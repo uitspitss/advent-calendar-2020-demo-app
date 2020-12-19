@@ -11,29 +11,41 @@ type DateDescriptionPageProps = {
 
 type Props = {
   dateString: string;
+  handleGoBack: () => void;
 } & DateDescriptionPageProps;
 
 const Component: VFC<Props> = (props) => {
-  const { className, nowDateString, dateString } = props;
+  const { className, nowDateString, dateString, handleGoBack } = props;
 
   return (
     <div className={className}>
       {dateString}
       <div className="updateTime">{nowDateString} 更新</div>
+      <button className="goBackButton" type="button" onClick={handleGoBack}>
+        戻る
+      </button>
     </div>
   );
 };
 
-const StyledComponent = styled(Component)``;
+const StyledComponent = styled(Component)`
+  ${tw`flex flex-col items-center`}
+
+  & > .updateTime {
+    ${tw`mb-10`}
+  }
+`;
 
 /**
  * TODO: write an explanation of DateDescriptionPage
  */
 const DateDescriptionPage: NextPage<DateDescriptionPageProps> = (props) => {
-  const { query } = useRouter();
+  const { query, push } = useRouter();
   const dateString = query.date as string;
 
-  return <StyledComponent {...props} {...{ dateString }} />;
+  const handleGoBack = () => push('/');
+
+  return <StyledComponent {...props} {...{ dateString, handleGoBack }} />;
 };
 
 export const getStaticProps: GetStaticProps = async () => {
