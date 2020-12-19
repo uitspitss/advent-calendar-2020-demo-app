@@ -2,7 +2,7 @@ import React, { VFC } from 'react';
 import { NextPage, GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import tw, { styled } from 'twin.macro';
-import { format } from 'date-fns-tz';
+import { format, utcToZonedTime } from 'date-fns-tz';
 import { useForm, UseFormMethods, SubmitHandler } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { getData } from 'pages/api/posts';
@@ -131,7 +131,8 @@ const IndexPage: NextPage<IndexPageProps> = (props) => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const nowDateTimeString = format(new Date(), 'yyyy/MM/dd HH:mm:ss', {
+  const now = utcToZonedTime(new Date(), 'Asia/Tokyo');
+  const nowDateTimeString = format(now, 'yyyy/MM/dd HH:mm:ss', {
     timeZone: 'Asia/Tokyo',
   });
 
