@@ -49,7 +49,7 @@ const DateDescriptionPage: NextPage<DateDescriptionPageProps> = (props) => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const nowDateString = format(new Date(), 'HH:mm:ss MM/dd/yyyy', {
+  const nowDateString = format(new Date(), 'yyyy/MM/dd HH:mm:ss', {
     timeZone: 'Asia/Tokyo',
   });
 
