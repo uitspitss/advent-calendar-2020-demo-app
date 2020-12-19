@@ -79,7 +79,7 @@ const StyledComponent = styled(Component)`
 
     & > .posts {
       & > li {
-        ${tw`list-none mb-2 flex`}
+        ${tw`list-none mb-2 flex items-center`}
 
         & > .createdAt {
           ${tw`mr-4`}
@@ -140,7 +140,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: { nowDateTimeString, posts },
-    revalidate: 100,
+    revalidate: 3600,
   };
 };
 
