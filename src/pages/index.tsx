@@ -82,7 +82,7 @@ const StyledComponent = styled(Component)`
         ${tw`list-none mb-2 flex items-center`}
 
         & > .createdAt {
-          ${tw`mr-4`}
+          ${tw`mr-4 flex-none`}
         }
       }
     }
