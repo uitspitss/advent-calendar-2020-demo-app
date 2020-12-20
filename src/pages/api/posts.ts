@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { format } from 'date-fns-tz';
-import { parseISO } from 'date-fns';
+import { parseJSON } from 'date-fns';
 
 type Post = {
   title: string;
@@ -18,7 +18,7 @@ export const getData = async () => {
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const posts = data.map((post: any) => {
-    const dt = parseISO(post.created_at);
+    const dt = parseJSON(post.created_at);
 
     return {
       title: post.title,
