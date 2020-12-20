@@ -22,7 +22,9 @@ export const getData = async () => {
 
     return {
       title: post.title,
-      createdAt: format(dt, 'yyyy/MM/dd hh:mm:ss'),
+      createdAt: format(dt, 'yyyy/MM/dd hh:mm:ss', {
+        timeZone: 'Asia/Tokyo',
+      }),
       url: post.url,
     };
   });
