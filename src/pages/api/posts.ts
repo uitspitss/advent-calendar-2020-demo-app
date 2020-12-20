@@ -30,9 +30,9 @@ export const getData = async () => {
   return posts;
 };
 
-const api = async (req: NextApiRequest, res: NextApiResponse<Post>) => {
+const handler = async (req: NextApiRequest, res: NextApiResponse<Post>) => {
   const posts = await getData();
   res.status(200).json(posts);
 };
 
-export default api;
+export default handler;
