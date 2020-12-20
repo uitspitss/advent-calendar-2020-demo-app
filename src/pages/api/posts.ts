@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import { format } from 'date-fns-tz';
-import { parseJSON } from 'date-fns';
+import { format, parseISO } from 'date-fns';
+import { utcToZonedTime } from 'date-fns-tz';
 
 type Post = {
   title: string;
@@ -18,13 +18,12 @@ export const getData = async () => {
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const posts = data.map((post: any) => {
-    const dt = parseJSON(post.created_at);
+    const dt = parseISO(post.created_at);
+    const localDt = utcToZonedTime(dt, 'Asia/Tokyo');
 
     return {
       title: post.title,
-      createdAt: format(dt, 'yyyy/MM/dd hh:mm:ss', {
-        timeZone: 'Asia/Tokyo',
-      }),
+      createdAt: format(localDt, 'yyyy/MM/dd hh:mm:ss'),
       url: post.url,
     };
   });
